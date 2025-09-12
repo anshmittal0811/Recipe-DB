@@ -162,13 +162,6 @@ The application uses a PostgreSQL database with the following main entities:
 4. **Regional Insights**: Explore recipe distribution and nutritional patterns across different regions
 5. **Ingredient Research**: Browse ingredients by category and find recipes that use them
 
-## 🤝 Contributing
-
-This is a personal project, but suggestions and improvements are welcome! Feel free to:
-- Report bugs or issues
-- Suggest new features
-- Submit pull requests for improvements
-
 ## 📝 License
 
 This project is for personal use and educational purposes.
