@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is RecipeDB?",
+    "answer": "RecipeDB is a structured repository of recipes and ingredients from over 22 world regions, intended to enable data-driven explorations of recipes. In conjunction with flavor molecules data from FlavorDB; RecipeDB facilitates multi-level analysis of traditional recipes (dietary classifications, ingredient composition, nutritional profile, recipes, etc.)."
+  },
+  {
+    "id": 2,
+    "question": "What are the different concepts represented in RecipeDB and how do they relate to each other?",
+    "answer": "Concepts presented in RecipeDB include recipes, the region they originated in, and the ingredients and utensils utilized in their preparation. It also includes the nutritional profiles of both recipes and their ingredients. The illustration depicts relationships among the different concepts incorporated into RecipeDB. In this example, we have the recipe 'Prawn Nasi Goreng' which belongs to the Southeast Asian region, specifically to the Indonesian sub-region. The estimated nutritional profile of the recipe contains information on its nutrient content such as the number of calories, proteins, etc. The recipe is characterized by its dietary attributes, list of utensils used as well as an ordered list of the processes that take place in the recipe. Each ingredient in a recipe is characterized by attributes such as quantity, unit and state as well as its own nutritional profile."
+  },
+  {
+    "id": 3,
+    "question": "What types of queries are processed by RecipeDB?",
+    "answer": "RecipeDB facilitates an elastic search to query recipes based on factors such as geographical location of origin (i.e. region, country), name, dietary classification, ingredients associated/unassociated with the recipe and its nutritional information (i.e. calorie, protein, etc. content)."
+  },
+  {
+    "id": 4,
+    "question": "How do I use \"Recipe Search\"?",
+    "answer": "Refer to the \"Search\" section on the \"How to Use\" page."
+  },
+  {
+    "id": 5,
+    "question": "How do I use \"Advanced Search\"?",
+    "answer": "Refer to the \"Advanced Search\" section on the \"How to Use\" page."
+  },
+  {
+    "id": 6,
+    "question": "What are the various recipes within RecipeDB?",
+    "answer": "A list of all the recipes in RecipeDB can be obtained by simply hitting the 'Search' button on the recipe search page without providing any specific query."
+  },
+  {
+    "id": 7,
+    "question": "What are RecipeDB Statistics?",
+    "answer": "RecipeDB Statistics explain the vastness and depth of RecipeDB using interactive plots made using Plotly."
+  },
+  {
+    "id": 8,
+    "question": "What are the prerequisites required in order to use RecipeDB?",
+    "answer": "A modern web browser."
+  },
+  {
+    "id": 9,
+    "question": "How does the 'Find Similar Recipes' feature work?",
+    "answer": "The similarity in recipes was ascertained based on shared category composition of ingredients and processes."
+  },
+  {
+    "id": 10,
+    "question": "How does RecipeDB obtain the individual nutritional profiles of ingredients in a recipe?",
+    "answer": "RecipeDB uses information such as the state and quantity of an ingredient in a recipe to calculate its estimated nutritional profile by mapping it to the USDA data."
+  },
+  {
+    "id": 11,
+    "question": "How does RecipeDB estimate a recipe's nutritional profile?",
+    "answer": "For every ingredient of a recipe its features were extracted: ingredient name, state, quantity, unit, dry/fresh, temperature, and size. Using the name of the ingredient and its state, each ingredient was mapped to a unique 'NDB ID' from USDA database. Further using the standard nutrition data from USDA data tables, the nutritional profile of the ingredient was estimated by mapping quantity and unit. The final 'estimated nutritional profile' is a sum total of nutritional values of each ingredient in it."
+  },
+  {
+    "id": 12,
+    "question": "How were the Dietary Styles (vegan, pescatarian, ovo-vegetarian, lacto-vegetarian, ovo-lacto-vegetarian) ascertained for the recipes?",
+    "answer": "The Dietary Style of each recipe was decided based on the constraints followed by each of these categories. For this version the ingredient categories dish and bakery were refrained from the dietary style determination."
+  },
+  {
+    "id": 13,
+    "question": "What are the categories ingredients are sorted into?",
+    "answer": "The ingredients were manually curated into the 23 categories given below: Additive, Bakery, Beverage, Beverage-Alcoholic, Cereal, Condiment, Dairy, Dish, Essential Oil, Fish, Fruit, Fungi, Herb, Legume, Maize, Meat, Nuts and Seeds, Plant, Plant Derivative, Seafood, Spice, Vegetable"
+  },
+  {
+    "id": 14,
+    "question": "How does the integration of RecipeDB with DietRx and FlavorDB work?",
+    "answer": "For each ingredient found in recipes of the database, a 'Generic Ingredient Name' was assigned manually to account for degeneracy due to derivative products. For each generic ingredient the FlavorDB ID and DietRx ID were manually labelled. These external resources provide details of the 'Flavor Profile' and 'Health Impacts' of the ingredient, respectively."
+  },
+  {
+    "id": 15,
+    "question": "What browsers are supported by RecipeDB?",
+    "answer": "RecipeDB supports all modern web browsers, but it can be best viewed on Chrome, Firefox and Edge."
+  },
+  {
+    "id": 16,
+    "question": "What is the Tech Stack used to build RecipeDB?",
+    "answer": "Frontend: React JS, Tailwind CSS, React Query. Backend: Java, Spring Boot, PostgreSQL"
+  },
+  {
+    "id": 17,
+    "question": "What are the sources of information for RecipeDB?",
+    "answer": "RecipeDB has sourced the recipes from many online resources, and its nutritional information from the USDA Food Composition Databases."
+  },
+  {
+    "id": 18,
+    "question": "Does RecipeDB use cookies?",
+    "answer": "RecipeDB uses cookies to provide statistics that help us give the best possible experience for our site."
+  },
+  {
+    "id": 19,
+    "question": "Can I access RecipeDB using my mobile phone?",
+    "answer": "Although RecipeDB is best viewed on a desktop, the website is accessible from most modern mobile web browsers."
+  },
+  {
+    "id": 20,
+    "question": "How do I access the data from RecipeDB?",
+    "answer": "We provide options for downloading the data from RecipeDB. The data is available under Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)"
+  },
+  {
+    "id": 21,
+    "question": "How do I contribute to the data from RecipeDB?",
+    "answer": "You may contact us at bagler+RecipeDB@iiitd.ac.in for errata along with relevant references. Additionally, you may also fill the following form to report errata or give suggestions: Errata: https://forms.gle/cRcdTbUUg7osr2Ak7, Suggestions: https://forms.gle/bb44J6taJnmiwipo9"
+  },
+  {
+    "id": 22,
+    "question": "What is the license under which RecipeDB is available?",
+    "answer": "We provide options for downloading the data from RecipeDB. The data is available under Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)"
+  }
+] 
