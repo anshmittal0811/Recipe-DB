@@ -53,5 +53,4 @@ public class IngredientController {
         return ResponseEntity.ok(suggestions);
     }
 
-
 }
