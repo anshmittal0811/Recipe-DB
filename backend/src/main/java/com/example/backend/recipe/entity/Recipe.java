@@ -71,4 +71,5 @@ public class Recipe {
 
     @Column(name = "ovo_lacto_vegetarian")
     private String ovoLactoVegetarian;
+    
 }
