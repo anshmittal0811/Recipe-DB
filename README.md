@@ -50,27 +50,6 @@ A comprehensive recipe database and exploration platform that provides access to
 - **Elasticsearch** for search capabilities
 - **Kibana** for data visualization and monitoring
 
-## 📁 Project Structure
-
-```
-RecipeDB/
-├── frontend/                 # React TypeScript frontend
-│   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── pages/          # Application pages
-│   │   ├── services/       # API service layer
-│   │   └── interfaces/     # TypeScript type definitions
-│   └── package.json
-├── backend/                 # Spring Boot backend
-│   ├── src/main/java/
-│   │   └── com/example/backend/
-│   │       ├── recipe/     # Recipe-related services
-│   │       ├── ingredient/ # Ingredient management
-│   │       ├── receptor/   # Flavor receptor data
-│   │       └── common/     # Shared utilities
-│   └── pom.xml
-└── docker-compose.yml      # Infrastructure setup
 ```
 
 ## 🚀 Getting Started
