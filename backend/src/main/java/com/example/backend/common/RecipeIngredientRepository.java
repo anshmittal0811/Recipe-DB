@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository
@@ -41,4 +40,5 @@ public interface RecipeIngredientRepository extends JpaRepository<RecipeIngredie
     LIMIT 20
 """, nativeQuery = true)
     List<IngredientRecipesResponse> findTop20RecipesByIngredient(@Param("ingredientId") Long ingredientId);
+
 }
