@@ -151,7 +151,3 @@ This project is for personal use and educational purposes.
 - Nutritional information from USDA
 - Flavor molecule data from FlavorDB
 - Health associations from Medline (DietRx)
-
----
-
-**Note**: This is a personal project for exploring recipe data and culinary patterns. The database contains a substantial collection of recipes from around the world, making it a valuable resource for culinary research and exploration.
