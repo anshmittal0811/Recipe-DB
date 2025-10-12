@@ -1,0 +1,57 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle - Split Design -->
+  <!-- Left Half - Dark Navy -->
+  <path d="M 256 0 A 256 256 0 0 1 256 512 L 256 256 Z" fill="#171543"/>
+  <!-- Right Half - Lime Green -->
+  <path d="M 256 0 A 256 256 0 0 0 256 512 L 256 256 Z" fill="#B6EC1E"/>
+  
+  <!-- Recipe Book -->
+  <g transform="translate(116, 96)">
+    <!-- Book Shadow -->
+    <path d="M55 45 L55 325 C55 340 65 350 80 350 L245 350 L245 45 Z" fill="#000000" opacity="0.1"/>
+    <path d="M245 45 L245 350 L285 350 C300 350 310 340 310 325 L310 45 Z" fill="#000000" opacity="0.1"/>
+    
+    <!-- Book Pages -->
+    <path d="M50 40 L50 320 C50 335 60 345 75 345 L240 345 L240 40 Z" fill="#FFFFFF"/>
+    <path d="M240 40 L240 345 L280 345 C295 345 305 335 305 320 L305 40 Z" fill="#F6F6F6"/>
+    
+    <!-- Book Spine -->
+    <rect x="235" y="40" width="10" height="305" fill="#171543" opacity="0.15"/>
+    
+    <!-- Bookmark -->
+    <path d="M265 40 L265 150 L275 140 L285 150 L285 40 Z" fill="#171543"/>
+    
+    <!-- Chef Hat Icon on Cover -->
+    <g transform="translate(90, 100)">
+      <ellipse cx="60" cy="85" rx="55" ry="12" fill="#B6EC1E" opacity="0.3"/>
+      <path d="M20 70 Q20 45 35 35 Q35 20 50 20 Q55 10 65 10 Q75 10 80 20 Q95 20 95 35 Q110 45 110 70 L110 85 L20 85 Z" fill="#B6EC1E"/>
+      <circle cx="40" cy="40" r="8" fill="#FFFFFF" opacity="0.9"/>
+      <circle cx="90" cy="40" r="8" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    
+    <!-- Recipe Lines (decorative text) -->
+    <line x1="265" y1="200" x2="290" y2="200" stroke="#171543" stroke-width="2.5" opacity="0.4"/>
+    <line x1="265" y1="220" x2="285" y2="220" stroke="#171543" stroke-width="2.5" opacity="0.4"/>
+    <line x1="265" y1="240" x2="290" y2="240" stroke="#171543" stroke-width="2.5" opacity="0.4"/>
+    <line x1="265" y1="260" x2="290" y2="260" stroke="#171543" stroke-width="2.5" opacity="0.4"/>
+    
+    <!-- Utensils on left page -->
+    <g transform="translate(65, 220)">
+      <!-- Fork -->
+      <line x1="10" y1="0" x2="10" y2="50" stroke="#171543" stroke-width="3" opacity="0.5"/>
+      <line x1="6" y1="0" x2="6" y2="15" stroke="#171543" stroke-width="2.5" opacity="0.5"/>
+      <line x1="10" y1="0" x2="10" y2="15" stroke="#171543" stroke-width="2.5" opacity="0.5"/>
+      <line x1="14" y1="0" x2="14" y2="15" stroke="#171543" stroke-width="2.5" opacity="0.5"/>
+      
+      <!-- Spoon -->
+      <line x1="30" y1="15" x2="30" y2="50" stroke="#171543" stroke-width="3" opacity="0.5"/>
+      <ellipse cx="30" cy="7" rx="6" ry="8" fill="#171543" opacity="0.5"/>
+    </g>
+  </g>
+  
+  <!-- "DB" Badge with White Background -->
+  <circle cx="380" cy="380" r="62" fill="#FFFFFF"/>
+  <circle cx="380" cy="380" r="58" fill="#171543"/>
+  <text x="380" y="402" font-family="Poppins, sans-serif" font-size="50" font-weight="700" fill="#B6EC1E" text-anchor="middle">DB</text>
+</svg>
+

@@ -55,6 +55,12 @@ export interface SearchParams {
   time?: string;
 }
 
+// API Response wrapper interface
+interface ApiResponse<T> {
+  timestamp: string;
+  data: T;
+}
+
 // Generic API request function
 const apiRequest = async <T>(
   endpoint: string,
@@ -73,7 +79,8 @@ const apiRequest = async <T>(
     throw new Error(`API request failed: ${response.status} ${response.statusText}`);
   }
 
-  return response.json();
+  const jsonResponse: ApiResponse<T> = await response.json();
+  return jsonResponse.data;
 };
 
 // Recipe API functions
